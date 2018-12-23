@@ -7,5 +7,8 @@ En kopia av det populära frågesportspelet Primetime fast kodat i med javascrip
 3. Ladda upp på din http-server och sätt tiden till när du vill att quizet ska starta i time.js filen.
 
 ## Settings
-frågorna kan du ändra i fragor/fraga#.html
+Frågorna kan du ändra i fragor/fraga#.html / Du får också ändra vilket alternativ som ska vara rätt genom att byta onclick.
 Om du vill ändra tiden för varje fråga får du ändra det själv i javascript/sida#.js
+
+## Förvarning
+Det är bara det första svaret du klickar på som registrerar, byter man svar efter att man klickat första gången så registreras det inte.
