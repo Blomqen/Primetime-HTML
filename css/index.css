@@ -1,0 +1,98 @@
+body {
+	background-color:rgb(71, 63, 114);
+}
+p.info {
+	text-align:center;
+	font-size: 40px;
+	margin-top: -150px;
+}
+p {
+	text-align:center;
+	font-size: 25px;
+	font-family: primetime;
+}
+
+.button {
+	background-color: white;
+	border-color: black;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 46px;
+	margin-top:50px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.button:hover {
+	color: white;
+	background-color: #008CBA; /* Blue */
+}
+
+.btn-group .button;not(:last-child) {
+	border-buttom: none;
+}
+
+p.demo {
+	color: green;
+	text-align:center;
+	font-size: 80px;
+}
+p.demo2 {
+	color:red;
+	text-align:center;
+	font-size: 80px;
+}
+iframe {
+	height:1000px;
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:100px 100px 100px 100px;
+	border:0px;
+}
+div.iframe {
+	height:1000px;
+	width:900px;
+	position:center;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:5px 5px 5px 5px;
+}
+
+div.header img {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+}
+div.header h1 {
+	color:white;
+	font-size:184px;
+	font-family: primetime;
+	text-align:center;
+	margin-right:20px;
+	margin-top:-15px;
+}
+
+@font-face {
+	font-family: primetime;
+	src: url(../fonts/Rajdhani-Bold.ttf);
+}
+
+@font-face {
+	font-family: number;
+	src: url(../fonts/OpenSans-Bold.ttf);
+}
+
+.fraga {
+	font-family: primetime;
+}
+
+#demo {
+	font-family: number;
+}

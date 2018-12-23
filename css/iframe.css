@@ -1,0 +1,80 @@
+h1 {
+	text-align:center;
+	font-size:200px;
+}
+p.info {
+	text-align:center;
+	font-size: 40px;
+	margin-top: -150px;
+}
+p {
+	text-align:center;
+	font-size: 40px;
+}
+.fraga {
+	font-family: primetime;
+	font-size: 60px;
+}
+
+@font-face {
+	font-family: primetime;
+	src: url(../fonts/Rajdhani-Bold.ttf);
+}
+
+@font-face {
+	font-family: number;
+	src: url(../fonts/OpenSans-Bold.ttf);
+}
+
+body {
+	background-color:rgb(71, 63, 114);
+}
+
+.button {
+	background-color: white;
+	border-color:black;
+	border-radius:20px 20px 20px 20px;
+	border:0;
+	width:800px;
+	color: black;
+	padding: 15px 32px;
+	text-align: left;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 46px;
+	margin-top:50px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.button:hover {
+	color: white;
+	background-color: #008CBA; /* Blue */
+	border:0;
+	border-radius:20px 20px 20px 20px;
+	text-decoration: none;
+}
+
+.btn-group .button;not(:last-child) {
+	border-buttom: none;
+}
+
+p.demo {
+  color: green;
+	text-align:center;
+	font-size: 80px;
+}
+p.demo2 {
+	color:red;
+	text-align:center;
+	font-size: 80px;
+}
+a {
+	text-decoration: none;
+}
+
+#demo {
+	font-family: number;
+}

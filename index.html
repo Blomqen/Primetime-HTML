@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="../primetime/images/favicon.ico" />
+<link rel="stylesheet" type="text/css" href="../primetime/css/index.css">
+</head>
+<body>
+<div class="header">
+<!--this part is commented out because it might violate copyright laws-->
+<!--img src="../primetime/images/logo.jpg" align="middle"-->
+<h1>Primetime</h1>
+<!--p class="info">This is a site designed for smartphones only.</p-->
+</div>
+<br>
+<div class="iframe">
+<iframe id="iframe" src="countdown.html"></iframe>
+<p id="demo" class="demo"></p>
+</div>
+<br>
+<div>
+<!--please do not remove this part-->
+<p class="madeby">Sidan är skapad av Blomqen.</p>
+<!--please do not remove this part-->
+</div>
+<script src="time.js"></script>
+<script>
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "It's Primetime";
+	document.getElementById("iframe").src = "../primetime/fragor/fraga1.html";
+	
+	//document.addEventListener("tabs.reload()", event => event.preventDefault());
+  }
+}, 1000);
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+var countDownDate = new Date("Dec 31, 2018, 00:00:00").getTime();
