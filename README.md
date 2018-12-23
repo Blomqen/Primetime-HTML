@@ -1,4 +1,7 @@
-# Primetime-HTML
+## Download
+git clone git@github.com:Blomqen/Primetime-HTML.git primetime
+
+## Primetime-HTML
 En kopia av det populära frågesportspelet Primetime fast kodat i med javascript.
 
 ## Setup
