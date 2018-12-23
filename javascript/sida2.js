@@ -15,7 +15,7 @@ if (distance < -1) {
 	}
 }, 1000);
 
-function myFunction() {
+function correct() {
 	var now = new Date().getTime();
 	
 	var timeleft = countDownDate - now + 60000 * 2;
