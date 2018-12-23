@@ -1,6 +1,6 @@
 ## Download
 ### Manuellt
-- Download https://github.com/Blomqen/Primetime-HTML/archive/master.zip
+- Ladda ner https://github.com/Blomqen/Primetime-HTML/archive/master.zip
 - Unzippa och byt namn på mappen till primetime
 
 ### Använd Git
