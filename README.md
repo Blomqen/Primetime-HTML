@@ -8,7 +8,7 @@
 git clone git@github.com:Blomqen/Primetime-HTML.git primetime
 ```
 ## Primetime-HTML
-En kopia av det populära frågesportspelet Primetime fast kodat i med javascript.
+En kopia av det populära frågesportspelet Primetime fast kodat i javascript.
 
 ## Setup
 1. Du kommer behöva en http-server för att folk ska kunna komma in på sidan. (Hemsidan är designad för mobiltelefoner)
@@ -17,7 +17,7 @@ En kopia av det populära frågesportspelet Primetime fast kodat i med javascrip
 
 ## Settings
 Frågorna kan du ändra i fragor/fraga#.html  /Du får också ändra vilket alternativ som ska vara rätt genom att byta onclick.
-Onclick="correct" för rätt svar och onclick="fel" för fel svar.<br>
+Onclick="correct()" för rätt svar och onclick="fel()" för fel svar.<br>
 Om du vill ändra tiden för varje fråga får du ändra det själv i javascript/sida#.js
 
 ## Förvarning
