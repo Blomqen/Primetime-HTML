@@ -25,4 +25,4 @@ Det är bara det första svaret du klickar på som registrerar, byter man svar e
 
 ## Particles
 Particles is made by soulwire : https://github.com/soulwire/sketch.js
-Added to have some type of authentication for those who win
+<br> Tillagd för att ha någon typ av verifikation när folk vinner så det inte är en screenshot
