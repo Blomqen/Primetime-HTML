@@ -22,3 +22,7 @@ Om du vill ändra tiden för varje fråga får du ändra det själv i javascript
 
 ## Förvarning
 Det är bara det första svaret du klickar på som registrerar, byter man svar efter att man klickat första gången så registreras det inte.
+
+## Particles
+Particles is made by soulwire : https://github.com/soulwire/sketch.js
+Added to have some type of authentication for those who win
