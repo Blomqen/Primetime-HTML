@@ -26,3 +26,7 @@ Det är bara det första svaret du klickar på som registrerar, byter man svar e
 ## Particles
 Particles is made by soulwire : https://github.com/soulwire/sketch.js
 <br> Tillagd för att ha någon typ av verifikation när folk vinner så det inte är en screenshot
+
+## Kontakt
+För frågor om mjukvaran eller rättslig kontakt<br>
+Mail: contact@blomqen.se
